@@ -1,0 +1,16 @@
+[package]
+name = "arkworks-tests"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ark-r1cs-std = { version = "^0.4.0" }
+ark-relations = "^0.4.0"
+ark-ff = "^0.4.0"
+ark-test-curves = { version = "^0.4.0", features = ["bls12_381_curve"] }
+ark-bls12-377 = { version = "^0.4.0", features = ["r1cs", "curve"] }
+ark-std = "^0.4.0"
+ark-snark = "^0.4.0"
+ark-groth16 = "^0.4.0"
+ark-ec = "^0.4.0"
+ark-crypto-primitives = { version = "^0.4.0", features = ["crh", "r1cs"] }
