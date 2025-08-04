@@ -90,6 +90,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "ark-ed-on-bls12-377"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b10d901b9ac4b38f9c32beacedfadcdd64e46f8d7f8e88c1ae1060022cf6f6c6"
+dependencies = [
+ "ark-bls12-377",
+ "ark-ec",
+ "ark-ff",
+ "ark-r1cs-std",
+ "ark-std",
+]
+
+[[package]]
 name = "ark-ff"
 version = "0.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -258,6 +271,7 @@ dependencies = [
  "ark-bw6-761",
  "ark-crypto-primitives",
  "ark-ec",
+ "ark-ed-on-bls12-377",
  "ark-ff",
  "ark-groth16",
  "ark-r1cs-std",

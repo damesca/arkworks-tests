@@ -10,4 +10,4 @@ pub use fq::test_fq_var;
 pub use pairing::test_pairing;
 pub use emulation::{test_add, test_mul, test_mul_without_reduce};
 pub use group_var::test_GVar;
-pub use crh::test_sha256_crh;
+pub use crh::{test_sha256_crh, test_pedersen_crh};
