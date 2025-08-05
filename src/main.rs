@@ -11,7 +11,7 @@ fn main() {
     //let _ = gadgets::test_GVar();
     //let _ = gadgets::test_pairing();
     //let _ = gadgets::test_sha256_crh();
-    let _ = gadgets::test_pedersen_crh();
+    //let _ = gadgets::test_pedersen_crh();
     //let _ = gadgets::test_add();
     //let _ = gadgets::test_mul();
     //let _ = gadgets::test_mul_without_reduce();
@@ -20,5 +20,5 @@ fn main() {
     //let _ = proofs::test_sha256_crh_with_proof();
     //let _ = proofs::test_fp_with_proof();
     
-    //TODO: let _  = proofs::test_pairing_with_proof();
+    let _  = proofs::test_pairing_with_proof();
 }
